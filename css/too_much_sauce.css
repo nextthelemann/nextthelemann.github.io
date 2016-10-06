@@ -7,15 +7,15 @@
 
 #aboutMe {
   position: relative;
-  height: 10cm;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  right: 10%;
 }
 
 #aboutMe > h1, p {
   position: absolute;
   background-color: yellow;
-  width: 80%;
-  height: 80%;
-  left: 10%;
-  right: 10%:
+  padding: {1,1,1,1}
 
 }
