@@ -6,7 +6,16 @@
  */
 
 #aboutMe {
-  align-items: center;
+  position: relative;
+  height: 10cm;
+}
 
+#aboutMe > h1, p {
+  position: absolute;
+  background-color: yellow;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  right: 10%:
 
 }
