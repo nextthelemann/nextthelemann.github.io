@@ -1,0 +1,90 @@
+body {
+	background-color: #102a2e;
+}
+
+#rootContainer {
+	width: 100%;
+	height:100%;
+	-webkit-border-radius: 50%; 
+  	-moz-border-radius: 50%;
+  	border-radius: 50%;
+}
+
+#presentationContainer {
+	-webkit-border-radius: 50%; 
+  	-moz-border-radius: 50%;
+  	border-radius: 50%;
+    position: relative;
+	height: 500px;
+	width: 500px;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	overflow: hidden;
+}
+
+#Layer_1 {
+	-webkit-border-radius: 50%; 
+  	-moz-border-radius: 50%;
+  	border-radius: 50%;
+}
+
+#smoke1 {
+	opacity:0;
+}
+
+#smoke2 {
+	opacity:0;
+}
+
+#smoke3 {
+	opacity:0;
+}
+
+#smoke4 {
+	opacity:0;
+}
+
+#smoke5 {
+	opacity:0;
+}
+
+#smoke6 {
+	opacity:0;
+}
+
+#smoke7 {
+	opacity:0;
+}
+
+#smoke8 {
+	opacity:0;
+}
+
+#smoke9 {
+	opacity:0;
+}
+
+#smoke10 {
+	opacity:0;
+}
+
+#smoke11 {
+	opacity:0;
+}
+
+#smoke12 {
+	opacity:0;
+}
+
+#smoke13 {
+	opacity:0;
+}
+
+#smoke14 {
+	opacity:0;
+}
+
+#smoke15 {
+	opacity:0;
+}
