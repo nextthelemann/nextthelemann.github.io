@@ -356,6 +356,6 @@
 	</div>
 
   </body>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script src="TweenMax.min.js"></script>
 	<script src="main.js"></script>
 </html>
