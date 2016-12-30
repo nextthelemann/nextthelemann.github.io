@@ -22,6 +22,7 @@ $(document).ready(function() {
 
 $(window).keyup(function(e){
 	if(e.keyCode == 27){
+		//hide gamecontainer when ESC is pressed
 		$('#gameContainer').hide('slow');
 		$('#presentationContainer').show('slow');
 		$('#ski').show();
@@ -42,7 +43,8 @@ var locX = 430;
 var locY = 100;
 		
 var running = true;
-		
+
+//different images that are used		
 var guy = new Image();
 var guyLeft = new Image();
 var guyRight = new Image();

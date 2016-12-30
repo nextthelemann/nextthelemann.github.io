@@ -1,0 +1,1 @@
+Sprites for the ski game were ripped by Wing Wang Wao.
