@@ -8,7 +8,16 @@
 
   </head>
   <body>
-	  
+	
+  	<div id="gameContainer">
+		<canvas id="can" width="640" height="500" style="border: 1px solid black" ></canvas>
+	</div>
+
+	<div id="instructContainer">
+		<p>Restart: Space</p>
+		<p>Quit: Esc</p>
+	</div>
+
 	<div id="rootContainer">
 		<div id="presentationContainer">
 			<div id="smoke">
@@ -23,6 +32,8 @@
 			  <span class="s8"></span>
 			  <span class="s9"></span>
 			</div>
+
+			
 			
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 				 width="500px" height="500px" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
@@ -355,7 +366,16 @@
 		<a href="mailto:scottthelemann@gmail.com"><span>Email</span></a>
 	</div>
 
+	<!-- New ski game stuff -->
+	<div id="ski">
+		<img src="./SkiierAssets/Ski_Start.png" />
+	</div>
+
+
+	<!-- End of ski game stuff -->
   </body>
 	<script src="TweenMax.min.js"></script>
+	<script type="text/javascript" src="./jquery-3.1.1.min.js"></script>
 	<script src="main.js"></script>
+	<script src="ski.js"></script>
 </html>

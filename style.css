@@ -21,6 +21,7 @@ body {
 	margin-right: auto;
 	margin-top: 25px;
 	overflow: hidden;
+
 }
 
 #Layer_1 {
@@ -87,4 +88,49 @@ body {
 
 #smoke15 {
 	opacity:0;
+}
+
+
+/*Ski game styling*/
+#ski {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+}
+
+#ski:hover {
+	top: 23%;
+}
+
+#gameContainer {
+	-webkit-border-radius: 50%; 
+  	-moz-border-radius: 50%;
+  	border-radius: 50%;
+    position: relative;
+	height: 500px;
+	width: 500px;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	overflow: hidden;
+
+	
+	background-color: white;
+	
+	display: none;
+	
+}
+
+#gameContainer h3 {
+	color: gold;
+	font-size: 50px;
+}
+
+#instructContainer {
+	position: absolute;
+	top: 5%;
+	left: 2%;
+	display: none;
+
+	color: #EFAC06;
 }
