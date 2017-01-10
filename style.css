@@ -96,13 +96,8 @@ body {
 	position: absolute;
 	top: 25%;
 	left: 50%;
-}
 
-@media screen and (max-width: 600px) {
-	#ski {
-		visibility: hidden;
-		display: none;
-	}
+
 }
 
 #ski:hover {
@@ -140,4 +135,12 @@ body {
 	display: none;
 
 	color: #EFAC06;
+}
+
+
+/* for mobile version */
+@media only screen and (max-device-width: 480px) {
+	#ski {
+		display: hidden;
+	}
 }
